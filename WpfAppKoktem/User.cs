@@ -9,17 +9,6 @@ using System.Threading.Tasks;
 namespace WpfAppKoktem
 {
     
-    //public void DefaultUsers()
-    //{
-    //    user defaultUser = new user();
-    //    defaultUser.name = "Воронюк Надежда Степановна";
-    //    defaultUser.telephoneNumber = "+1(234)5678301";
-    //    defaultUser.old = "1972";
-    //    defaultUser.photo = "C:\\Users\\Prigo\\Desktop\\3.png";
-
-    //    //listUsers.Items.Clear();
-    //    listUsers.Items.Add(defaultUser);
-    //}
     public class User : INotifyPropertyChanged
     {
         private string photo;
@@ -33,7 +22,7 @@ namespace WpfAppKoktem
             set
             {
                 photo = value;
-                OnPropertyChanged("C:\\Users\\Prigo\\Desktop\\3.png");
+                OnPropertyChanged("Images/5.png");
             }
         }
         public string Name
